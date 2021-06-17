@@ -51,3 +51,20 @@ hr {
   background-color:#D9C8B4;
   height: 1px;
 }
+
+a:link { 
+  color:#73351F; 
+  text-decoration: none;
+  font-weight: bold;
+}
+a:visited { 
+  color:#73351F;
+  text-decoration: none;
+ }
+a:hover { 
+  color:red;
+  text-decoration: underline;
+ }
+
+
+
