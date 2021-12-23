@@ -10,7 +10,7 @@ function App() {
 
   const text_div = 
     <div style={{marginLeft: '2vw', marginBottom: 20, marginTop: 15, fontSize: 18, font: 'Fira Sans', color: '#4b4b4b'}}> 
-      Hi! I am Juhee Son, MS student at KAIST School of Computing, advised by <a href="https://aliceoh9.github.io/">Alice Oh</a>. My research interests are non-autoregressive sequence generation, controllable language generation
+      Hi! I am Juhee Son, MS student at KAIST School of Computing, advised by <a href="https://aliceoh9.github.io/">Alice Oh</a>. My research interests are Open domain QA, Dialog generation, Machine Translation, sequence generation
     </div>
   
   const education_div =
@@ -49,7 +49,7 @@ const work_experience =
                 title="Conditional Variational Autoencoder with Adversarial Learning for End-to-End Text-to-Speech"
                 authors={<div>Jaehyeon Kim, Jungil Kong, <b>Juhee Son</b></div>}
                 conf="ICML, 2021"
-                contents="We propsed an end-to-end training method for text-to speech synthesis. With this method, we can synthesize high-quality raw waveforms from text directly"
+                contents="We proposed an end-to-end training method for text-to-speech synthesis. With this method, we can synthesize high-quality raw waveforms from the text directly"
                 paperlink="https://arxiv.org/abs/2106.06103"
               />}
         </li>
