@@ -58,7 +58,7 @@ const work_experience =
                 authors={<div>Yeon Seonwoo*, <b>Juhee Son*</b>, Jiho Jin, Sang-Woo Lee, Ji-Hoon Kim, Jung-Woo Ha, Alice Oh</div>}
                 conf="ACL Findings, 2022"
                 contents="We proposed proposes a two-step question retrieval model, SQUID (Sequential QUestion-Indexed Dense retrieval) and distant supervision for training.  SQUID significantly increases the performance of existing question retrieval models with a negligible loss on inference speed."
-                paperlink="https://openreview.net/forum?id=DfIqekNrjw7"
+                paperlink="https://aclanthology.org/2022.findings-acl.117.pdf"
               />}
             {<Publication 
                 img={vits_img} 
