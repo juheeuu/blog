@@ -1,6 +1,6 @@
 export function Publication(props) {
     return(
-      <div style={{"line-height": 26, "display": "inline-block", "marginBottom": 50}}>
+      <div style={{"line-height": 26, "display": "inline-block", "paddingBottom": 50}}>
           <img src={props.img} style={{width: 250, float: 'left', marginRight: 20}}/>
           <div style={{"font-size": 20, "font-weight": 'bold', marginBottom: 4}}><a href={props.paperlink}>{props.title}</a></div>
           <ul>

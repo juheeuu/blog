@@ -3,6 +3,7 @@ import profile_img from './profile.jpeg';
 import vits_img from './publication/vits.jpeg';
 import squid_img from './publication/squid.jpeg';
 import hue_img from './publication/hue.jpeg';
+import h2ke_img from './publication/h2ke.png';
 import {Section} from './Section.js';
 import {Publication} from './Publication.js';
 
@@ -45,12 +46,21 @@ const work_experience =
   const publication = 
     <div style={{marginLeft: '3vw', marginBottom: 20, marginTop: 15, fontSize: 18, font: 'Fira Sans', color: '#4b4b4b'}}> 
             {<Publication 
+                img={h2ke_img} 
+                title="Translating Hanja Historical Documents to Contemporary Korean and English"
+                authors={<div><b>Juhee Son</b>, Jiho Jin, Haneul Yoo, JinYeong Bak, Kyunghyun Cho, Alice Oh
+                  </div>}
+                conf="EMNLP Findings, 2022"
+                contents="H2KE, the neural machine translation model that translates Hanja historical documents to understandable Korean and English.Based on the multilingual neural machine translation approach, it translates the historical document written in Hanja, using both the full dataset of outdated Korean translation and a small dataset of recently translated Korean and English."
+                paperlink=""
+              />}
+            {<Publication 
                 img={hue_img} 
                 title="HUE: Pretrained Model and Dataset for Understanding Hanja Documents of Ancient Korea"
                 authors={<div>Haneul Yoo, Jiho Jin, <b>Juhee Son</b>, JinYeong Bak, Kyunghyun Cho, Alice Oh</div>}
                 conf="NAACL Findings, 2022"
                 contents="Toward building and evaluating language models for Hanja, we release the Hanja Understanding Evaluation dataset consisting of king prediction, topic classification, named entity recognition, and summary retrieval tasks."
-                paperlink=""
+                paperlink="https://aclanthology.org/2022.findings-naacl.140/"
               />}
             {<Publication 
                 img={squid_img} 
@@ -60,14 +70,16 @@ const work_experience =
                 contents="We proposed proposes a two-step question retrieval model, SQUID (Sequential QUestion-Indexed Dense retrieval) and distant supervision for training.  SQUID significantly increases the performance of existing question retrieval models with a negligible loss on inference speed."
                 paperlink="https://aclanthology.org/2022.findings-acl.117.pdf"
               />}
-            {<Publication 
+            {
+              <Publication 
                 img={vits_img} 
                 title="Conditional Variational Autoencoder with Adversarial Learning for End-to-End Text-to-Speech"
                 authors={<div>Jaehyeon Kim, Jungil Kong, <b>Juhee Son</b></div>}
                 conf="ICML, 2021"
                 contents="We proposed an end-to-end training method for text-to-speech synthesis. With this method, we can synthesize high-quality raw waveforms from the text directly"
                 paperlink="https://arxiv.org/abs/2106.06103"
-              />}
+              />
+              }
     </div>
 
   const contact = 
