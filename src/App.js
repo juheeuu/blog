@@ -14,8 +14,8 @@ function App() {
   const text_div = 
     <div style={{marginLeft: '2vw', marginBottom: 20, marginTop: 15, fontSize: 18, font: 'Fira Sans', color: '#4b4b4b'}}> 
       Hi! I am Juhee Son, Machine Learning Engineer at Amazon. <br/>
-      I'm interested in all of machine learning technology that can make something interesting XD <br/>
-      I own <a href="https://judy-son.tistory.com/">tech blog</a> mostly written in Korean <br/>
+      I'm interested in all of machine learning technology that can make something interesting XD. <br/>
+      I own <a href="https://judy-son.tistory.com/">tech blog</a> mostly written in Korean. <br/>
     </div>
   
   const education_div =
