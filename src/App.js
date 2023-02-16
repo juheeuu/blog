@@ -13,14 +13,16 @@ function App() {
 
   const text_div = 
     <div style={{marginLeft: '2vw', marginBottom: 20, marginTop: 15, fontSize: 18, font: 'Fira Sans', color: '#4b4b4b'}}> 
-      Hi! I am Juhee Son, MS student at KAIST School of Computing, advised by <a href="https://aliceoh9.github.io/">Alice Oh</a>. My research interests are Open domain QA, Dialog generation, Machine Translation, sequence generation
+      Hi! I am Juhee Son, Machine Learning Engineer at Amazon. <br/>
+      I'm interested in all of machine learning technology that can make something interesting XD <br/>
+      I own <a href="https://judy-son.tistory.com/">tech blog</a> mostly written in Korean <br/>
     </div>
   
   const education_div =
     <div style={{marginLeft: '2vw', marginBottom: 20, marginTop: 15, fontSize: 18, font: 'Fira Sans', color: '#4b4b4b'}}> 
       <ul>
         <li>
-          M.S in Computer Science, <a href="https://uilab.kaist.ac.kr/">uilab</a>, KAIST, 2021-
+          M.S in Computer Science, <a href="https://uilab.kaist.ac.kr/">uilab</a>, KAIST, 2021-2023
         </li>
         <li>
           B.S in Computer Science, KAIST, 2016-2021
@@ -31,6 +33,9 @@ function App() {
 const work_experience =
   <div style={{marginLeft: '2vw', marginBottom: 20, marginTop: 15, fontSize: 18, font: 'Fira Sans', color: '#4b4b4b'}}> 
     <ul>
+      <li>
+        Machine Learning Engineer, <a href="https://advertising.amazon.com/">Amazon</a>, 2023.2-present
+      </li>
       <li>
         Machine Learning Researcher, <a href="https://www.kakaoenterprise.com/">Kakao Enterprise</a>, 2020-2021.2
       </li>
@@ -48,7 +53,7 @@ const work_experience =
             {<Publication 
                 img={h2ke_img} 
                 title="Translating Hanja Historical Documents to Contemporary Korean and English"
-                authors={<div><b>Juhee Son</b>, Jiho Jin, Haneul Yoo, JinYeong Bak, Kyunghyun Cho, Alice Oh
+                authors={<div><b>Juhee Son*</b>, Jiho Jin*, Haneul Yoo, JinYeong Bak, Kyunghyun Cho, Alice Oh
                   </div>}
                 conf="EMNLP Findings, 2022"
                 contents="H2KE, the neural machine translation model that translates Hanja historical documents to understandable Korean and English.Based on the multilingual neural machine translation approach, it translates the historical document written in Hanja, using both the full dataset of outdated Korean translation and a small dataset of recently translated Korean and English."
@@ -111,8 +116,8 @@ const work_experience =
       <hr />
       </header>
       <Section title="About" innerdiv={text_div}/>
-      <Section title="Education" innerdiv={education_div}/>
       <Section title="Work experience" innerdiv={work_experience}/>
+      <Section title="Education" innerdiv={education_div}/>
       <Section title="Publication" innerdiv={publication}/>
       <Section title="Contact" innerdiv={contact}/>
 
